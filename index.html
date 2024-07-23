@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlavorFiesta Food Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@
+    0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="assests/logo.jpeg" alt="" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li class="drop-down">
+            <a href="">Restaurants <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="restarent">
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+              <li><a href="#">abhiruchi</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Meal Planner</a></li>
+          <li><a href="#">Cooking Classes</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="blog">
+      <div class="search-bar">
+        <h1>Food Blog</h1>
+        <div class="search">
+          <input type="text" placeholder="Search blog posts..." />
+          <button>Search</button>
+        </div>
+      </div>
+      <div class="blog-content">
+        <div class="main-content">
+          <div class="posts">
+            <div class="post">
+              <img src="assests/OIP (2).jpeg" alt="Food Trends" />
+              <div class="post-content">
+                <h2>Latest Food Trends in 2024</h2>
+                <p>
+                  Discover the hottest food trends of 2024 that are taking the
+                  culinary world by storm.
+                </p>
+                <a href="#">Read more...</a>
+                <div class="post-meta">
+                  <span>Posted on July 8, 2024 by Admin</span>
+                  <span><a href="#">3 comments</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <img src="assests/OIP (1).jpeg" alt="Vegan Recipes" />
+              <div class="post-content">
+                <h2>5 Easy Vegan Recipes for Beginners</h2>
+                <p>
+                  Start your vegan journey with these simple and delicious
+                  recipes that anyone can make.
+                </p>
+                <a href="#">Read more...</a>
+                <div class="post-meta">
+                  <span>Posted on June 25, 2024 by Guest Blogger</span>
+                  <span><a href="#">10 comments</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <img src="assests/OIP.jpeg" alt="Cooking Tips" />
+              <div class="post-content">
+                <h2>Cooking Tips from Top Chefs</h2>
+                <p>
+                  Learn the secrets and techniques from world-renowned chefs to
+                  enhance your cooking skills.
+                </p>
+                <a href="#">Read more...</a>
+                <div class="post-meta">
+                  <span>Posted on June 15, 2024 by Admin</span>
+                  <span><a href="#">5 comments</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="sidebar">
+          <div class="featured-articles">
+            <h2>Featured Articles</h2>
+            <ul>
+              <li><a href="#">The Ultimate Guide to Baking</a></li>
+              <li><a href="#">10 Quick and Easy Pasta Recipes</a></li>
+              <li><a href="#">How to Create a Balanced Diet Plan</a></li>
+            </ul>
+          </div>
+          <div class="popular-tags">
+            <h2>Popular Tags</h2>
+            <ul>
+              <li><a href="#"># Vegan</a></li>
+              <li><a href="#"># HealthyEating</a></li>
+              <li><a href="#"># QuickRecipes</a></li>
+              <li><a href="#"># Baking</a></li>
+              <li><a href="#"># DinnerIdeas</a></li>
+            </ul>
+          </div>
+          <div class="archive">
+            <h2>Archive</h2>
+            <ul>
+              <li><a href="#">July 2024</a></li>
+              <li><a href="#">June 2024</a></li>
+              <li><a href="#">May 2024</a></li>
+              <li><a href="#">April 2024</a></li>
+            </ul>
+          </div>
+          <div class="author-bio">
+            <h2>About the Author</h2>
+            <p>
+              Hi! I'm Jamie, a food enthusiast and blogger. I love sharing my
+              passion for cooking and experimenting with new recipes. Follow my
+              blog for delicious recipes and cooking tips!
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="subscribe">
+      <h2>Subscribe to our Blog</h2>
+      <form>
+        <input type="email" placeholder="Enter your email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 FlavorFiesta. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
